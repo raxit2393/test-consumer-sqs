@@ -1,4 +1,6 @@
-# test-consumer-sqs
+# test-consumer-sqs-go
+
+This consumer reads the messages from SQS and dumps it in DynamoDB
 
 ### Install and run localstack on docker
 docker run -it -d -p 4566:4566 -p 4510-4559:4510-4559 --name aws_localstack localstack/localstack
